@@ -73,7 +73,7 @@ function checkAnswer(currentLevel) {
         setTimeout(function() {
         $("body").removeClass("game-over")}, 200);
 
-        $("h1").text("Haha! Fuck You Pussy! Press Any Key To Restart");
+        $("h1").text("You failed! Press Any Key To Restart");
         startOver();
     }
 }
